@@ -18,5 +18,8 @@ class TestMyCombinatoria(unittest.TestCase):
     def test_combinatoria_1y4(self):
         self.assertEqual(Combinatoria.combi(1, 4), 0)
 
+    def test_combinatoria_2y5(self):
+        self.assertEqual(Combinatoria.combi(2, 5), 0)
+
 if __name__ == "__main__":
     unittest.main()
