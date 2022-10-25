@@ -1,10 +1,4 @@
 import math
-# from math import comb
-
-# comb = combinations([5, 3], 2)
-
-# for i in list(comb):
-#     print(i)
 
 def combi(a, b):
 
@@ -14,4 +8,4 @@ def combi(a, b):
         c = math.factorial(a)/math.factorial(b)*math.factorial(a-b)
     return c
 
-print(combi(5,2))  
+print(combi(-5,2))  
