@@ -11,4 +11,4 @@ def combi(a, b):
         c = math.factorial(a)/math.factorial(b)*math.factorial(a-b)
     return c
 
-print(combi(5,-2))  
+print(combi(0,3))  
