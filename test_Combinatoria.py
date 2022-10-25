@@ -27,5 +27,8 @@ class TestMyCombinatoria(unittest.TestCase):
     def test_combinatoria_XigualN(self):
         self.assertEqual(Combinatoria.combi(3, 3), 1)
 
+    def test_combinatoria_cadena(self):
+        self.assertEqual(Combinatoria.combi("a", "b"), 0)
+
 if __name__ == "__main__":
     unittest.main()
