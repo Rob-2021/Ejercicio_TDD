@@ -9,5 +9,8 @@ class TestMyCombinatoria(unittest.TestCase):
     def test_combinatoriaXnegativo(self):
         self.assertEqual(Combinatoria.combi(-5,2), 0)
 
+    def test_combinatoriaNnegativo(self):
+        self.assertEqual(Combinatoria.combi(5,-2), 0)
+
 if __name__ == "__main__":
     unittest.main()
