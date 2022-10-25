@@ -2,7 +2,7 @@ import math
 
 def combi(a, b):
     if (type(a) == str or type(b) == str):
-        return 0
+        return TypeError
 
     if b <= 0:
         return 0
@@ -13,4 +13,4 @@ def combi(a, b):
         c = math.factorial(a)/math.factorial(b)*math.factorial(a-b)
     return c
 
-print(combi(1,1))  
+print(combi("a", "b"))  

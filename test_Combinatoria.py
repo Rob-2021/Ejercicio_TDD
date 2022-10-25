@@ -28,7 +28,7 @@ class TestMyCombinatoria(unittest.TestCase):
         self.assertEqual(Combinatoria.combi(3, 3), 1)
 
     def test_combinatoria_cadena(self):
-        self.assertEqual(Combinatoria.combi("a", "b"), 0)
+        self.assertEqual(Combinatoria.combi("a", "b"), TypeError)
 
     def test_combinatoria_1y1(self):
         self.assertEqual(Combinatoria.combi(1, 1), 1)
